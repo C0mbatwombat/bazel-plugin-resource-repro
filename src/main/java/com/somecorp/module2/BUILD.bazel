@@ -1,0 +1,7 @@
+java_library(
+	name = "module2_lib",
+	srcs = glob(
+       ["*.java"],
+   ),
+   resources = ["//:sql_file"],
+)

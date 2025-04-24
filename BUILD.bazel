@@ -1,0 +1,6 @@
+filegroup(
+    name = "sql_file",
+    srcs = ["sql/some_sql_file.sql"],
+    visibility = ["//visibility:public"],
+)
+
